@@ -1,7 +1,7 @@
 %define         appname com.system76.CosmicStore
 Name:           cosmic-store
-Version:        0.alpha2.0
-Release:        1
+Version:        1.0.0
+Release:        0.alpha.2.0
 Summary:        COSMIC app store
 Group:          Store/COSMIC
 License:        GPL-3.0-only
