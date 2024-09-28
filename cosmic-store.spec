@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 %define         appname com.system76.CosmicStore
 Name:           cosmic-store
 Version:        1.0.0
