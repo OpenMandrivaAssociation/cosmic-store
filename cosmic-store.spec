@@ -2,7 +2,7 @@
 %define         appname com.system76.CosmicStore
 Name:           cosmic-store
 Version:        1.0.0
-%define beta alpha.6
+%define beta alpha.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        COSMIC app store
 Group:          Store/COSMIC
