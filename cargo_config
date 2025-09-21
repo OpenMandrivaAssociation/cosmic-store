@@ -18,13 +18,25 @@ replace-with = "vendored-sources"
 git = "https://github.com/jackpot51/spdx.git"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/cosmic-protocols?rev=178eb0b"]
+[source."git+https://github.com/pop-os/cosmic-panel"]
+git = "https://github.com/pop-os/cosmic-panel"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/cosmic-protocols?rev=6254f50"]
 git = "https://github.com/pop-os/cosmic-protocols"
-rev = "178eb0b"
+rev = "6254f50"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/cosmic-settings-daemon"]
+git = "https://github.com/pop-os/cosmic-settings-daemon"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/cosmic-text.git"]
 git = "https://github.com/pop-os/cosmic-text.git"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/dbus-settings-bindings"]
+git = "https://github.com/pop-os/dbus-settings-bindings"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/freedesktop-icons"]
