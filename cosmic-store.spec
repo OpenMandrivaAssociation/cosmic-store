@@ -1,8 +1,8 @@
 %undefine _debugsource_packages
 %define         appname com.system76.CosmicStore
 Name:           cosmic-store
-Version:        1.0.0
-%define beta beta.7
+Version:        1.0.2
+#define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        COSMIC app store
 Group:          Store/COSMIC
@@ -12,6 +12,7 @@ Source0:        https://github.com/pop-os/cosmic-store/archive/epoch-%{version}%
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 
+BuildRequires:  make
 BuildRequires:  rust-packaging
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  just
