@@ -3,7 +3,7 @@
 Name:           cosmic-store
 Version:        1.0.2
 #define beta beta.7
-Release:        %{?beta:0.%{beta}.}1
+Release:        %{?beta:0.%{beta}.}2
 Summary:        COSMIC app store
 Group:          Store/COSMIC
 License:        GPL-3.0-only
