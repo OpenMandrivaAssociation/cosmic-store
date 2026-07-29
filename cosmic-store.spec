@@ -1,11 +1,11 @@
 %undefine _debugsource_packages
 %define         appname com.system76.CosmicStore
 Name:           cosmic-store
-Version:        1.0.2
+Version:        1.2.0
 #define beta beta.7
 Release:        %{?beta:0.%{beta}.}2
 Summary:        COSMIC app store
-Group:          Store/COSMIC
+Group:          Desktop/COSMIC
 License:        GPL-3.0-only
 URL:            https://github.com/pop-os/cosmic-store
 Source0:        https://github.com/pop-os/cosmic-store/archive/epoch-%{version}%{?beta:-%{beta}}/%{name}-epoch-%{version}%{?beta:-%{beta}}.tar.gz
