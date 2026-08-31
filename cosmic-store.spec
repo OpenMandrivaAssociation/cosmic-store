@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 %define         appname com.system76.CosmicStore
 Name:           cosmic-store
-Version:        1.5.0
+Version:        1.7.0
 #define beta beta.7
 Release:        %{?beta:0.%{beta}.}2
 Summary:        COSMIC app store
